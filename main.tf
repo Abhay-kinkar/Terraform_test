@@ -2,6 +2,7 @@
 #   project = var.project
 #   region = var.region
 # }
+# adding resource GCR
 
 resource "google_artifact_registry_repository" "registry" {
   project = var.project
